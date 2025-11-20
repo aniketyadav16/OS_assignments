@@ -1,0 +1,21 @@
+assignment:
+  id: 3
+  title: "CPU Scheduling Algorithms"
+  student:
+    name: "Aman Kumar Singh"
+    program: "B.Tech CSE (Data Science)"
+    enrollment_no: "2301420040"
+
+  description: "Implementation of classical CPU scheduling algorithms."
+
+  files:
+    - fcfs.py
+    - rr.py
+    - sjf.py
+    - srtf.py
+
+  scheduling_algorithms:
+    fcfs: "First Come First Serve (Non-preemptive)"
+    sjf: "Shortest Job First (Non-preemptive)"
+    srtf: "Shortest Remaining Time First (Preemptive)"
+    rr: "Round Robin Scheduling"

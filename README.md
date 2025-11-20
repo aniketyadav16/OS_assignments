@@ -1,53 +1,101 @@
 # 🖥️ Operating Systems Lab Assignments (OS_LAB_ASSIGN)
 
-This repository contains all of my Operating Systems Lab assignments completed as part of my coursework.  
-Each task demonstrates core OS concepts like process management, system calls, file descriptors, process scheduling, and system simulation.
+This repository contains all Operating Systems Lab assignments completed as part of the B.Tech CSE (Data Science) curriculum.  
+Each assignment demonstrates core OS concepts such as **process creation**, **IPC**, **CPU scheduling**, **system calls**, **process lifecycle**, and **shell scripting**.
 
 ---
 
-## Repository Structure
-
-| File/Folder                | Description                                                                 |
-|----------------------------|-----------------------------------------------------------------------------|
-| `Assignment1/`             | Contains **task1.py** to **task5.py**, demonstrating core OS concepts: process creation, IPC, synchronization, and CPU scheduling simulations. |
-| `Assignment2/`             | Contains Python scripts simulating **system startup, process creation, and termination** using multiprocessing and logging. |
-| `Assignment3/`             | Contains CPU scheduling algorithm implementations: `fcfs.py`, `sjf.py` (non-preemptive), `srtf.py` (preemptive SJF), `rr.py` (Round Robin). |
-| `ASSIGNMENT1.OS.pdf`       | PDF submission of Assignment 1 (theory + practical report).                 |
-| `ASSIGNMENT2.OS.pdf`       | PDF submission of Assignment 2 (system startup simulation report).          |
-| `ASSIGNMENT3.OS.pdf`       | PDF submission of Assignment 3 (CPU scheduling algorithms report).          |
-| `README.md`                | This file.                                                                  |
+## 👤 Student Information
+- **Name:** Aman Kumar Singh  
+- **Program:** B.Tech CSE (Data Science)  
+- **Enrollment No:** 2301420040  
 
 ---
 
-## **Requirements**
-- Python 3.x
-- Linux environment (required for `os.fork()`, `/proc` inspection, and scheduling simulations)
-- Basic knowledge of OS concepts like process management and CPU scheduling
+# 📂 Repository Structure
+
+| Folder | Description |
+|--------|-------------|
+| **Assignment1/** | Core OS concepts: process creation, IPC, file handling, zombies/orphans, priority scheduling |
+| **Assignment2/** | OS boot simulation, multiprocessing, logging, process lifecycle |
+| **Assignment3_Scheduling/** | CPU scheduling algorithms (FCFS, SJF, SRTF, RR) |
+| **Assignment4/** | Shell scripting, system info extraction, IPC, OS utilities, exception handling |
 
 ---
 
-## **How to Run**
+# 🧪 Assignment Summaries
+
+## **📘 Assignment 1 – Process Creation, IPC & Basic OS Concepts**
+Includes:
+- `task1.py` – Process creation using `fork()`
+- `task2.py` – IPC with pipes/queues
+- `task3.py` – File handling & system call emulation
+- `task4.py` – Zombie & orphan process demonstration
+- `task5.py` – Priority scheduling simulation
+
+---
+
+## **📘 Assignment 2 – System Boot, Logging & Process Lifecycle**
+Includes:
+- `subtask1.py` – OS boot sequence
+- `subtask2.py` – Multiprocessing process creation
+- `subtask3.py` – Logging system
+- `subtask4.py` – Graceful shutdown simulation  
+- `process_log.txt` – Output logs
+
+---
+
+## **📘 Assignment 3 – CPU Scheduling Algorithms**
+Includes:
+- `fcfs.py` – First Come First Serve
+- `sjf.py` – Shortest Job First (Non-preemptive)
+- `srtf.py` – Shortest Remaining Time First
+- `rr.py` – Round Robin
+
+---
+
+## **📘 Assignment 4 – Shell Scripting, IPC & OS Utilities**
+Includes:
+- `script1.py`, `script2.py`, `script3.py`
+- `task1.py`, `task2.py`, `task3_exc.py`, `task3_ipc.py`, `task4_detect.py`
+- `system.info.sh` – System info shell script
+
+---
+
+## 🔹 **Run Assignment 1**
 
 ```bash
-### Assignment 1
-cd OS_LAB/Assignment1
+cd Assignment1
+
 python3 task1.py
 python3 task2.py
 python3 task3.py
 python3 task4.py
 python3 task5.py
 
-### Assignment 2
-cd OS_LAB/Assignment2
-python3 <script_name>.py
-# Check process_log.txt for output logs
 
-### Assignment 3
-cd OS_LAB/Assignment3
-python3 fcfs.py     # First Come First Serve
-python3 sjf.py      # Shortest Job First (non-preemptive)
-python3 srtf.py     # Shortest Remaining Time First (preemptive SJF)
-python3 rr.py       # Round Robin
+cd ../Assignment2
 
+python3 subtask1.py     # OS boot simulation
+python3 subtask2.py     # Process creation
+python3 subtask3.py     # Logging system
+python3 subtask4.py     # Process shutdown
 
+cd ../Assignment3_Scheduling
 
+python3 fcfs.py      # First Come First Serve
+python3 sjf.py       # Shortest Job First (Non-preemptive)
+python3 srtf.py      # Shortest Remaining Time First (Preemptive)
+python3 rr.py        # Round Robin Scheduling
+
+cd ../Assignment4
+
+python3 script1.py
+python3 script2.py
+python3 script3.py
+
+python3 task1.py        # OS operations + exceptions
+python3 task2.py        # Process creation & handling
+python3 task3_exc.py    # Exception handling
+python3 task3_ipc.py    # IPC demonstration
+python3 task4_detect.py # System detection/monitoring

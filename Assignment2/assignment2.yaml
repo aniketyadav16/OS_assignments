@@ -1,0 +1,22 @@
+assignment:
+  id: 2
+  title: "System Boot, Logging & Process Lifecycle Simulation"
+  student:
+    name: "Aman Kumar Singh"
+    program: "B.Tech CSE (Data Science)"
+    enrollment_no: "2301420040"
+
+  description: "Simulates OS boot sequence, background processes, and event logging."
+
+  files:
+    - subtask1.py
+    - subtask2.py
+    - subtask3.py
+    - subtask4.py
+    - process_log.txt
+
+  tasks:
+    subtask1: "Simulation of OS boot sequence"
+    subtask2: "Process creation using multiprocessing"
+    subtask3: "Logging system for process events"
+    subtask4: "Process shutdown and cleanup"

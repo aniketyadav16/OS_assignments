@@ -1,0 +1,23 @@
+assignment:
+  id: 1
+  title: "Process Creation and Basic OS Concepts"
+  student:
+    name: "Aman Kumar Singh"
+    program: "B.Tech CSE (Data Science)"
+    enrollment_no: "2301420040"
+
+  description: "This assignment contains tasks related to process creation, IPC, scheduling basics, and OS behavior simulation."
+
+  files:
+    - task1.py
+    - task2.py
+    - task3.py
+    - task4.py
+    - task5.py
+
+  tasks:
+    task1: "Process creation using os.fork() and PID/PPID handling"
+    task2: "Inter-process communication using Python multiprocessing"
+    task3: "File handling + basic OS system call emulation"
+    task4: "Zombie and orphan process demonstration"
+    task5: "Priority scheduling simulation"

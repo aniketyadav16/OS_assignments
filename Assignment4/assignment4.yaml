@@ -1,0 +1,31 @@
+assignment:
+  id: 4
+  title: "Shell Scripting, IPC, System Info & OS Utilities"
+  student:
+    name: "Aman Kumar Singh"
+    program: "B.Tech CSE (Data Science)"
+    enrollment_no: "2301420040"
+
+  description: "Scripts that demonstrate exception handling, shell scripting, system information extraction, and IPC."
+
+  files:
+    - script1.py
+    - script2.py
+    - script3.py
+    - system.info.sh
+    - task1.py
+    - task2.py
+    - task3_exc.py
+    - task3_ipc.py
+    - task4_detect.py
+
+  tasks:
+    script1: "Basic OS utilities"
+    script2: "System call simulation"
+    script3: "File & directory operations"
+    system_info: "Shell script to fetch system information"
+    task1: "Exception handling and OS operations"
+    task2: "Process creation with error handling"
+    task3_exc: "Advanced exception handling"
+    task3_ipc: "Inter-process communication"
+    task4_detect: "System event / anomaly detection"
